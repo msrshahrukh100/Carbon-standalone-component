@@ -43,7 +43,7 @@ class Embed extends React.Component {
   handleUpdate = updates => {
     const query = ""
     const queryParams = {
-      backgroundColor: "rgba(171, 184, 195, 1)",
+      backgroundColor: "rgba(255, 255, 255, 1)",
       dropShadow: true,
       dropShadowBlurRadius: "68px",
       dropShadowOffsetY: "20px",
