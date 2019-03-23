@@ -62,8 +62,7 @@ class Embed extends React.Component {
       windowControls: true,
       windowTheme: "none"
     }
-    const initialState = Object.keys(queryParams).length ? queryParams : {}-
-
+    const initialState = Object.keys(queryParams).length ? queryParams : {}
     this.setState(
       {
         ...initialState,
@@ -80,7 +79,6 @@ class Embed extends React.Component {
   ref = React.createRef()
 
   postMessage = () => {
-    console.log(this.state);
     getParent(window).postMessage(
       JSON.stringify({
         // Used by embed provider
